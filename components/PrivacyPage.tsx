@@ -29,7 +29,7 @@ export function PrivacyPage() {
           <section>
             <h2 className="text-2xl font-bold text-cue-navy mb-4">Contact Information</h2>
             <p><strong>Developer:</strong> CUE App</p>
-            <p><strong>Email:</strong> <a href="mailto:hello@cueapp.co" className="text-cue-coral hover:underline">hello@cueapp.co</a></p>
+            <p><strong>Email:</strong> <a href="mailto:buildmoreandmore@gmail.com" className="text-cue-coral hover:underline">buildmoreandmore@gmail.com</a></p>
             <p><strong>Website:</strong> <a href="https://cueapp.co" className="text-cue-coral hover:underline">https://cueapp.co</a></p>
           </section>
 
@@ -129,7 +129,7 @@ export function PrivacyPage() {
             <h2 className="text-2xl font-bold text-cue-navy mb-4">Contact Us</h2>
             <p>
               If you have any questions about this Privacy Policy, please contact us at{' '}
-              <a href="mailto:hello@cueapp.co" className="text-cue-coral hover:underline">hello@cueapp.co</a>.
+              <a href="mailto:buildmoreandmore@gmail.com" className="text-cue-coral hover:underline">buildmoreandmore@gmail.com</a>.
             </p>
           </section>
 
@@ -143,7 +143,7 @@ export function PrivacyPage() {
           <div className="flex gap-6 text-sm font-semibold text-cue-navy/60">
             <a href="/privacy" className="text-cue-coral">Privacy Policy</a>
             <a href="/terms" className="hover:text-cue-coral transition-colors">Terms</a>
-            <a href="mailto:hello@cueapp.co" className="hover:text-cue-coral transition-colors">Contact</a>
+            <a href="mailto:buildmoreandmore@gmail.com" className="hover:text-cue-coral transition-colors">Contact</a>
           </div>
           <div className="text-sm text-cue-navy/40">
             © 2025 CUE

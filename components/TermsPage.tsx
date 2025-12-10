@@ -125,7 +125,7 @@ export function TermsPage() {
             <h2 className="text-2xl font-bold text-cue-navy mb-4">12. Contact Us</h2>
             <p>
               If you have any questions about these Terms, please contact us at{' '}
-              <a href="mailto:hello@cueapp.co" className="text-cue-coral hover:underline">hello@cueapp.co</a>.
+              <a href="mailto:buildmoreandmore@gmail.com" className="text-cue-coral hover:underline">buildmoreandmore@gmail.com</a>.
             </p>
           </section>
 
@@ -139,7 +139,7 @@ export function TermsPage() {
           <div className="flex gap-6 text-sm font-semibold text-cue-navy/60">
             <a href="/privacy" className="hover:text-cue-coral transition-colors">Privacy Policy</a>
             <a href="/terms" className="text-cue-coral">Terms</a>
-            <a href="mailto:hello@cueapp.co" className="hover:text-cue-coral transition-colors">Contact</a>
+            <a href="mailto:buildmoreandmore@gmail.com" className="hover:text-cue-coral transition-colors">Contact</a>
           </div>
           <div className="text-sm text-cue-navy/40">
             © 2025 CUE

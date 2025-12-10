@@ -154,7 +154,7 @@ export function JoinPage() {
           <div className="flex gap-6 text-sm font-semibold text-cue-navy/60">
             <a href="/privacy" className="hover:text-cue-coral transition-colors">Privacy Policy</a>
             <a href="/terms" className="hover:text-cue-coral transition-colors">Terms</a>
-            <a href="mailto:hello@cueapp.co" className="hover:text-cue-coral transition-colors">Contact</a>
+            <a href="mailto:buildmoreandmore@gmail.com" className="hover:text-cue-coral transition-colors">Contact</a>
           </div>
           <div className="text-xs text-cue-navy/40">
             © 2025 CUE. All rights reserved.
