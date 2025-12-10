@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CUE — Your next move in any conversation</title>
+    <meta name="description" content="When things get heated and you don't know what to say, CUE gives you a move. Join the waitlist for early access." />
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'cue-coral': '#E07A5F',
+              'cue-sage': '#81B29A',
+              'cue-navy': '#3D405B',
+              'cue-cream': '#F4F1DE',
+              'cue-white': '#FFFFFF',
+            },
+            fontFamily: {
+              sans: ['Nunito', 'sans-serif'],
+            },
+            animation: {
+              'float-slow': 'float 6s ease-in-out infinite',
+              'float-delayed': 'float 7s ease-in-out infinite -3s',
+              'breathe': 'breathe 4s ease-in-out infinite',
+              'fade-in-up': 'fadeInUp 0.8s ease-out forwards',
+            },
+            keyframes: {
+              float: {
+                '0%, 100%': { transform: 'translateY(0) rotate(0deg)' },
+                '50%': { transform: 'translateY(-15px) rotate(2deg)' },
+              },
+              breathe: {
+                '0%, 100%': { transform: 'scale(1)' },
+                '50%': { transform: 'scale(1.05)' },
+              },
+              fadeInUp: {
+                '0%': { opacity: '0', transform: 'translateY(20px)' },
+                '100%': { opacity: '1', transform: 'translateY(0)' },
+              }
+            }
+          }
+        }
+      }
+    </script>
+    
+    <!-- Plausible Analytics (Mock) -->
+    <script>
+      window.plausible = window.plausible || function() { (window.plausible.q = window.plausible.q || []).push(arguments) }
+    </script>
+
+    <style>
+      /* Custom utility for non-tailwind specifics */
+      body {
+        background-color: #F4F1DE; /* Fallback */
+        color: #3D405B;
+        overflow-x: hidden;
+      }
+      .blob-shape {
+        transition: all 0.5s ease;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.1/",
+    "react": "https://aistudiocdn.com/react@^19.2.1",
+    "react/": "https://aistudiocdn.com/react@^19.2.1/"
+  }
+}
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
