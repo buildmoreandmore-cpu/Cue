@@ -189,9 +189,9 @@ function App() {
             <div className="text-2xl font-extrabold text-cue-navy">CUE</div>
             
             <div className="flex gap-8 text-sm font-semibold text-cue-navy/60">
-                <a href="/privacy.html" className="hover:text-cue-coral transition-colors">Privacy Policy</a>
-                <a href="/terms.html" className="hover:text-cue-coral transition-colors">Terms</a>
-                <a href="mailto:hello@cue-app.com" className="hover:text-cue-coral transition-colors">Contact</a>
+                <a href="/privacy" className="hover:text-cue-coral transition-colors">Privacy Policy</a>
+                <a href="/terms" className="hover:text-cue-coral transition-colors">Terms</a>
+                <a href="mailto:hello@cueapp.co" className="hover:text-cue-coral transition-colors">Contact</a>
             </div>
 
             <div className="text-sm text-cue-navy/40">
