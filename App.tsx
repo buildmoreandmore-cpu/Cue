@@ -191,7 +191,7 @@ function App() {
             <div className="flex gap-8 text-sm font-semibold text-cue-navy/60">
                 <a href="/privacy" className="hover:text-cue-coral transition-colors">Privacy Policy</a>
                 <a href="/terms" className="hover:text-cue-coral transition-colors">Terms</a>
-                <a href="mailto:buildmoreandmore@gmail.com" className="hover:text-cue-coral transition-colors">Contact</a>
+                <a href="/support" className="hover:text-cue-coral transition-colors">Support</a>
             </div>
 
             <div className="text-sm text-cue-navy/40">

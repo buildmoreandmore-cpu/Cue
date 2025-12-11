@@ -5,6 +5,7 @@ import App from './App';
 import { JoinPage } from './components/JoinPage';
 import { PrivacyPage } from './components/PrivacyPage';
 import { TermsPage } from './components/TermsPage';
+import { SupportPage } from './components/SupportPage';
 
 const rootElement = document.getElementById('root');
 if (!rootElement) {
@@ -20,6 +21,7 @@ root.render(
         <Route path="/join" element={<JoinPage />} />
         <Route path="/privacy" element={<PrivacyPage />} />
         <Route path="/terms" element={<TermsPage />} />
+        <Route path="/support" element={<SupportPage />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
